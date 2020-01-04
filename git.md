@@ -1,4 +1,4 @@
-# Bir Repository'i Fork Etmek Yerine Çekip Kendi Repository'ne Push'lama
+# Bir Repository'i Fork Etmek Yerine Yeni Repository'e Push'lama
 
 # 1. Yöntem
 ```
