@@ -50,6 +50,18 @@ Bir 3DS işlemi *Acquirer Domain*'deki 3DS Server/MPI ile başlar, ancak bu bile
 
 3DS 1.0 akışında, kart hamili doğrulama sonucu (PARes), **ACS**'ten **MPI**'a doğrudan gönderildiğinden 3DS sonucu kart şemaları tarafından bilinememektedir. **ACS**'ler 3DS işlem sonucunu asekron bir şekilde **AHS**'e göndermektedir.
 
+3DS 2.0 da bu bileşen kaldırılmıştır.
+
+## Acquirer Domain
+### Merchant Server Plug-In (MPI)
+3DS 1.0 akışında , E-Ticaret web sitelerinin 3DS akışını başlatabilmek için entegre olduğu ve akışı başlattığı bileşendir.
+Rolleri;
+- 3DS akışı için gerekli olan bilgileri toplamak
+- İş yeri bilgilerini kontrol etmek
+- **DS**'e göndermek üzere VEReq mesajını hazırlamak ve iletmek,
+- ***ACS***'e yönlendirmek üzere PAReq mesajını hazırlamak ve iletmek,
+- ***ACS***'den dönen Kart Hamili doğrulama sonucunun geçerliliğini kontrol edip, 3DS Requestor'a yönlendirmek
+3DS 2.0 da bu bileşenin adı 3DS Server olarak değiştirilmiştir.
 
 
 ## 3D 2.0 daki değişiklikler ?
