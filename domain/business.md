@@ -154,8 +154,40 @@ HSMler hangi amaçla kullanılmaktadır?
 - Veri Bütünlüğü
 
 
+# Fintech nedir ?
+Finansal hizmetlerin kolay, iyi, hızlı verilmesi amacıyla oluşturulmuş finans ve teknolojiyi bir araya getiren şirketlerdir
 
-Fraud ?
+Fintechler Neler Yaparlar?
+- Kişiselleştirilmiş çözümlerle bankacılık sektöründe dijital devrim denilebilecek ürünler çıkarırlar.
+- Yenilikçi ürün ve hizmetler sunarlar.
+- Rekabetçi fiyat avantajı sağlarlar.
+- Finans sektöründe alternatif hizmetlerle öne çıkarlar.
+- Finans sistemi dışındaki kişilere de ulaşırlar. (unbanked)
+- Daha fazla müşteri deneyimine odaklanırlar.
+
+
+Fintech Firmalarının Çözümleri Nelerdir?
+- Mobil ve dijital ödeme
+- Bitcoin ve kripto para birimleri
+- Para piyasaları ve yatırım
+- Bankacılık ve kurumsal finans
+- Big Data ve analitik
+- Finansal platformlar
+- Eşler arası (Peer-to-peer) borçlanma ve kitlesel fonlama (crowdfunding)
+- Kişisel finansal yönetim
+- Blockchain teknolojisi
+
+## Türkiye’de Fintek
+Finans teknolojilerindeki bu çok trend elbette Türkiye’de de karşılığını buluyor. 2012 ve 2016 yılları içinde Türk melek yatırımcılar Fintek sektörüne yekün 20 milyon dolar yatırım yaptılar. Bu rakama, kişi yatırımları ve bankalar tarafından kurulanları katınca 20 milyon dolardan daha fazla bir meblağ ortaya çıkıyor. Türkiye’de Fintek sahasının işlem hacminin 2016 sonu nedeni ile 19 milyar doları aşması bekleniyor.
+
+Bankalararası Kart Merkezi (BKM), Paraşüt, iyzico mühim yerli oyuncular içinde yer alıyor. Aynı zamanda Ziraat Bankası başta olmak üzere çok sayıda banka da Fintekle yakından ilgileniyor.
+
+# Bankalararası Kart Merkezi (BKM) nedir ?
+ Türkiye'de ödeme sistemleri içerisinde nakit kullanımı gerekmeksizin her türlü ödemeyi veya para transferini sağlayan veya destekleyen sistem, platform ve altyapıları oluşturmak, işletmek ve geliştirmek amacıyla çalışan, kâr amacı gütmeyen bir kurumdur.   
+ 1990 yılında 13 kamu ve özel Türk bankasının ortaklığıyla kurulmuştur.
+  
+  
+  Fraud ?
 
 Wallet nedir ? 
 https://unalarif.com/yazi/wallet-nedir/
