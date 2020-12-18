@@ -68,4 +68,99 @@ Rolleri;
 ![image info](./images/3d-2.png)
 ![image info](./images/3d-3.png)
 
+
 ## 3D 2.0 daki değişiklikler ?
+
+### 1- Frictionless Akış
+Risk bazlı doğrulama. ACS'de bulunan risk modülleri Issuer banka'ların tanımladığı kurallar doğrultusunda ek bir doğrulama(OTP) gerekmeden 3DS i sonlandırabilir.  
+**Örnekler:**
+- Mobil bir cihazla,
+- Yurt içinde,
+- "ABC" iş yerinden
+- Son 3 ayda en az 1 OTP doğrulama yapılmış ve en az 3 başarılı işlemi bulunan bir kart ile,
+- 100 TL altındaki işlemler
+
+### 2-Non payment işlemler için 3D
+3DS 1.0 da doğrulama işlemi sadece ödeme için gerçekleştiriliyordu.  
+3DS 2.0 da kartı Digital Cüzdana eklemek için doğrulama yapılabilir.
+
+### 3- Mobil uyumluluk ve Mobil SDK
+- Mobil cihazlardan yapılan ödemelerde daha az sorun yaşamak için mobil uyumlu olması sağlandı.
+- Native entegrasyon için SDK bulunmaktadır.
+
+### 4- Alternatif Doğrulama Yöntemi
+OTP 'nin haricinde;
+- Parmak izi,
+- Ses
+- Yüz tanıma
+- Biyometrik Doğrulama teknolojilerinin kullanılması mümkün.
+
+### 5- Mesaj Standartları
+XML yerine JSON kullanılıyor.
+
+
+## 3D Messages 1.0 vs 2.0 
+
+![image info](./images/3dmessages.png)
+
+## HALF 3D SECURE nedir?
+Üye iş yerinin 3D Secure işlemi desteklerken kartın desteklememesi durumudur.
+
+## CAVV ve AVV nedir ?
+3D Secure işlemlerde işlem bütünlüğünün ve güvenliğinin sağlanması için kullanılan kodlardır.
+CAVV mastercard için,  
+AVV visa için kullanılır.  
+**CAAV** -> Cardholder Authentication Verification Value  
+**AVV** -> AccountHolder Authentication Value
+
+
+## ACS (Access Control Server) nedir ?
+ilgili Issuer bankaların belirlediği kurallar ve yöntemlerle kart hamillerinin doğrulanmasını sağlar.
+ACS ‘in 3DS 1.0 ‘da iki temel fonksiyonu vardır :
+İlgili kartın kayıtlı ve doğrulanabilir olup olmadığını kontrol eder.
+Issuer bankanın belirlediği yöntemler ile kart hamilini doğrular. (Challenge)
+
+## On-Us nedir ?
+Kartı veren banka ile pos sahibi banka aynı ise **On-Us**'tır, değilse **Not On-Us**'tır
+
+## EMV nedir ?
+- Europay Mastercard Visa kelimelerinin kısaltmasından oluşur.  
+- EMV, çip kartı teknolojisi kullanılan kredi ve banka kartları ödemelerini düzenleyen uluslararası standarttır
+-  bir ödeme terminalinde mikroişlemci entegre edilmiş kartlarla ödeme yapılabilmesini sağlamaktır.
+
+Avantajları;
+- ”CHIP and PIN” uygulaması kart dolandırıcılığının artmasına karşı bir çözüm olarak tanıtılmıştır. 
+- CHIP uygulaması kartın kopyalanmasının önüne geçerken, PIN işlemi çalınmış kartların kötüye kullanımını engellemektedir. 
+- Manyetik şeritli kartlarla yapılan işlemler online provizyon ile onaylanmaktadır. Bu işlem, hem bağlantı aşamasında zaman kaybı oluşturmakta hem de işlem maliyetini arttırmaktadır.
+
+## HSM nedir ?
+
+Hardware Security Module ifadesinin kısaltması olan HSM, hassas kriptografik anahtarları fiziksel ortamda saklamak ve kriptografik işlemleri en güvenli şekilde gerçekleştirmek için üretilmiş özel güvenlik donanımlarıdır. Bu donanımlar uygulamaların güvenli bir şekilde çalışmasını sağlarlar.
+
+Kullanım alanları:
+- Bankacılık,
+- E-imza sistemleri
+- E-devlet sistemleri,
+- E-pasaport islemleri
+- Biletleme sistemleri
+- İstihbarat ve Güvenlik birimleri
+
+HSMler hangi amaçla kullanılmaktadır?
+
+- Güvenli Veri Depolama
+- Güvenli Veri Transferi
+- Doğrulama/Authentication
+- İz Takibi
+- Veri Bütünlüğü
+
+
+
+Fraud ?
+
+Wallet nedir ? 
+https://unalarif.com/yazi/wallet-nedir/
+
+Financial technology (FinTech) nedir ?
+
+KEK(Key Encryption Key) nedir?
+https://unalarif.com/yazi/kekkey-encryption-key-nedir/
