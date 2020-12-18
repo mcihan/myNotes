@@ -64,8 +64,8 @@ Rolleri;
 3DS 2.0 da bu bileşenin adı 3DS Server olarak değiştirilmiştir.
 
 
-![image info](./3d.png)
-![image info](./3d-2.png)
-![image info](./3d-3.png)
+![image info](./images/3d.png)
+![image info](./images/3d-2.png)
+![image info](./images/3d-3.png)
 
 ## 3D 2.0 daki değişiklikler ?
